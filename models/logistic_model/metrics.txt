@@ -1,0 +1,48 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      1.00      0.92        18
+           1       1.00      0.91      0.95        32
+
+    accuracy                           0.94        50
+   macro avg       0.93      0.95      0.94        50
+weighted avg       0.95      0.94      0.94        50
+
+Accuracy: 94.00%
+
+Confusion Matrix:
+[[18  0]
+ [ 3 29]]
+
+Feature Importance:
+             Feature  Coefficient
+ Q1_dominant_topic_1     1.052933
+ Q3_dominant_topic_3     0.819762
+ Q2_dominant_topic_2     0.727052
+ Q3_dominant_topic_6     0.634046
+ Q1_dominant_topic_2     0.560366
+ Q2_dominant_topic_4     0.560366
+ Q1_dominant_topic_4     0.483268
+ Q2_dominant_topic_6     0.467248
+ Q2_dominant_topic_5     0.463789
+ Q2_dominant_topic_7     0.372899
+ Q1_dominant_topic_3     0.361224
+ Q3_dominant_topic_7     0.361224
+ Q3_dominant_topic_8     0.311139
+ Q1_dominant_topic_8     0.311139
+ Q3_dominant_topic_4     0.294741
+ Q3_dominant_topic_1     0.152650
+Q1_dominant_topic_-1     0.026923
+ Q2_dominant_topic_8    -0.203163
+ Q1_dominant_topic_6    -0.256741
+ Q2_dominant_topic_1    -0.280772
+Q3_dominant_topic_-1    -0.376809
+ Q3_dominant_topic_9    -0.425894
+ Q2_dominant_topic_9    -0.519839
+ Q1_dominant_topic_5    -0.546876
+ Q3_dominant_topic_2    -0.686432
+ Q1_dominant_topic_9    -0.829966
+ Q3_dominant_topic_5    -1.084419
+ Q1_dominant_topic_7    -1.162264
+Q2_dominant_topic_-1    -1.587572
+

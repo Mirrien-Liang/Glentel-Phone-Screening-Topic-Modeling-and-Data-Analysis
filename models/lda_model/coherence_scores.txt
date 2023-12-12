@@ -1,0 +1,3 @@
+'Q1' Coherence Score: 0.517360964311057
+'Q2' Coherence Score: 0.7075505100910556
+'Q3' Coherence Score: 0.4015946564711992

@@ -1,0 +1,12 @@
+__pycache__/
+.vscode/
+.venv/
+.ipynb_checkpoints/
+models/__pycache__/
+services/__pycache__/
+utils/__pycache__/
+.env
+.DS_Store
+consistency_check/
+data/archived/
+archived/

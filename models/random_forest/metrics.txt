@@ -1,0 +1,55 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        18
+           1       1.00      1.00      1.00        32
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+
+The model's accuracy is 100.00% which reflects the overall rate of correct predictions. Precision tells us the proportion of positive identifications that were actually correct, and recall tells us the proportion of actual positives that were identified correctly.
+
+Confusion Matrix:
+[[18  0]
+ [ 0 32]]
+
+The confusion matrix shows the counts of correct and incorrect predictions made by the model. It's a table with two rows and two columns that reports the number of false positives, false negatives, true positives, and true negatives. This helps to understand the model's performance in terms of specificity (true negative rate) and sensitivity (true positive rate).
+
+Model Confidence: On average, the model is 92.12% confident in its predictions.
+
+Error Analysis: The model made incorrect predictions for 0 out of 50 samples.
+
+Class Balance Impact: The dataset has 64.00% positive instances.
+
+
+Feature Level Importance:
+Q2_dominant_topic_-1: 0.1901
+Q1_dominant_topic_9: 0.0864
+Q3_dominant_topic_5: 0.0817
+Q1_dominant_topic_7: 0.0809
+Q1_dominant_topic_1: 0.0648
+Q3_dominant_topic_3: 0.0422
+Q1_dominant_topic_5: 0.0422
+Q3_dominant_topic_2: 0.0355
+Q3_dominant_topic_9: 0.0332
+Q3_dominant_topic_-1: 0.0330
+Q2_dominant_topic_2: 0.0306
+Q2_dominant_topic_9: 0.0281
+Q1_dominant_topic_6: 0.0255
+Q3_dominant_topic_6: 0.0235
+Q1_dominant_topic_-1: 0.0222
+Q1_dominant_topic_2: 0.0209
+Q1_dominant_topic_4: 0.0202
+Q2_dominant_topic_4: 0.0193
+Q2_dominant_topic_5: 0.0182
+Q2_dominant_topic_6: 0.0172
+Q2_dominant_topic_1: 0.0164
+Q2_dominant_topic_8: 0.0161
+Q3_dominant_topic_7: 0.0106
+Q1_dominant_topic_8: 0.0093
+Q3_dominant_topic_8: 0.0083
+Q2_dominant_topic_7: 0.0079
+Q1_dominant_topic_3: 0.0076
+Q3_dominant_topic_4: 0.0060
+Q3_dominant_topic_1: 0.0021

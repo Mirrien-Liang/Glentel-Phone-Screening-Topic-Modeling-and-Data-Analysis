@@ -1,0 +1,14 @@
+Topic Modeling Coherence Scores:
+'Q1' Coherence Score: 0.517360964311057 - moderate coherence with room for improvement in topic clarity.
+'Q2' Coherence Score: 0.7075505100910556 - high coherence indicating clear and interpretable topics.
+'Q3' Coherence Score: 0.4015946564711992 - moderate coherence with room for improvement in topic clarity.
+
+Random Forest Model Summary:
+The model correctly predicted 32 positive and 18 negative results. There were 0 false positives and 0 false negatives. The overall accuracy of the model is 100%.
+
+* For a detailed report of the random forest model, please refer to the 'metrics.txt' file in the 'models/random_forest/' directory.
+
+Logistic Regression Model Summary:
+The model correctly predicted 29 positive and 18 negative results. There were 0 false positives and 3 false negatives. The overall accuracy of the model is 94%.
+
+* For a detailed report of the logistic regression model, please refer to the 'metrics.txt' file in the 'models/logistic_model/' directory.
