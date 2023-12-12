@@ -1,5 +1,5 @@
 # Glentel Topic Analysis Project
-**Last Updated on: December 11, 2023**
+**Last Updated on: December 12, 2023**
 ### Author
 - [Asif Hasan](https://www.linkedin.com/in/asif-hasan-bab759231/)
 - [Fiona Lau](https://www.linkedin.com/in/fionalauu/)
@@ -7,7 +7,7 @@
 - [Owen Cheuk](http://www.linkedin.com/in/owen-cheuk)
 
 ### Description
-This program is served as an automated tool for Glentel to analyze open-ended questions, to identify impactful topics, and to predict a target event based on the open-ended questions. We expect this program to be adaptable to new dataset with minimal efforts of configuration.
+This is a ***sample*** program resembling the program served for Glentel as an automated tool for analyze open-ended questions, to identify impactful topics, and to predict a target event based on the open-ended questions. In this sample program, we provided simulated raw dataset and the results that we ran on a local machine. The only purpose of sharing this sample program is for educational purposes. For more information, please read [Disclaimer](#disclaimer).
 
 ### Features
 - **Data Preprocessing**:
